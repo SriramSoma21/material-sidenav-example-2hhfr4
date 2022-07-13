@@ -11,7 +11,7 @@ import { MatSidenav } from '@angular/material';
 })
 export class SidenavAutosizeExample {
   @ViewChild('sidenav') sidenav: MatSidenav;
-  isExpanded = true;
+  isExpanded = false;
   showSubmenu: boolean = false;
   isShowing = false;
   showSubSubMenu: boolean = false;
@@ -28,7 +28,6 @@ export class SidenavAutosizeExample {
     }
   }
 }
-
 
 /**  Copyright 2017 Google Inc. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that
